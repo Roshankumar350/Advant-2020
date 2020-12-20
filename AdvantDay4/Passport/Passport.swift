@@ -31,6 +31,8 @@ enum PassportField: String, CaseIterable {
 }
 
 extension PassportField {
+    
+    /// Passport  Field's Policy constrain
     struct Constant {
         static let birthYear = (1920...2002)
         static let yearOfIssue = (2010...2020)

@@ -9,6 +9,9 @@ import Foundation
 
 extension PassportField {
     
+    /// This will validate Birth Year based on policy of `Constant.birthYear`
+    /// - Parameter byr: Birth Year  having type `String?`
+    /// - Returns: Boolean to determine whether Birth Year is valid.
     func isValidByr(_ byr: String?)-> Bool {
         var _isValidByr = false
         
@@ -27,6 +30,9 @@ extension PassportField {
         return _isValidByr
     }
     
+    /// This will validate Year of Issue  based on policy of `Constant.yearOfIssue`
+    /// - Parameter iyr: Year of issue  having type `String?`
+    /// - Returns: Boolean to determine whether Year of issue is valid.
     func isValidIyr(_ iyr: String?)-> Bool {
         var _isValidIyr = false
         
@@ -45,6 +51,9 @@ extension PassportField {
         return _isValidIyr
     }
 
+    /// This will validate Year of expiration  based on policy of `Constant.expirationYear`
+    /// - Parameter eyr: Year of expiration  type `String?`
+    /// - Returns: Boolean to determine whether Year of expiration is valid.
     func isValidEyr(_ eyr: String?)-> Bool {
         var _isValidEyr = false
         
@@ -63,6 +72,9 @@ extension PassportField {
         return _isValidEyr
     }
     
+    /// This will validate Height  based on policy of `Constant.heightInCM` or ``Constant.heightInIn`
+    /// - Parameter Hgt: Height having  type `String?`
+    /// - Returns: Boolean to determine whether Height is valid.
     func isValidHgt(_ hgt: String?)-> Bool {
         var _isValidHgt = false
         
@@ -97,6 +109,9 @@ extension PassportField {
         return _isValidHgt
     }
     
+    /// This will validate Hair Color  based on policy of `Constant.regexForHCL`
+    /// - Parameter hcl: Hair Color having  type `String?`
+    /// - Returns: Boolean to determine whether Hair Color is valid.
     func isValidHcl(_ hcl: String?)-> Bool {
         var _isValidHcl = false
         guard let hairColor = hcl else {
@@ -109,6 +124,9 @@ extension PassportField {
         return _isValidHcl
     }
     
+    /// This will Eye Color  based on policy of `Constant.eyeColor`
+    /// - Parameter ecl: Eye Color having  type `String?`
+    /// - Returns: Boolean to determine whether Eye Color is valid.
     func isValidEcl(_ ecl: String?)-> Bool {
         var _isValidEcl = false
         
@@ -120,6 +138,9 @@ extension PassportField {
         return _isValidEcl
     }
     
+    /// This will validate Passport ID  based on policy of `Count == 9 and Type is Integer`
+    /// - Parameter pid: Height having  type `String?`
+    /// - Returns: Boolean to determine whether Passport ID is Valid.
     func isValidPid(_ pid: String?)-> Bool {
         var _isValidPid = false
         
