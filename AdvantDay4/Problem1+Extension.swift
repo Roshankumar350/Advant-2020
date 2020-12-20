@@ -43,60 +43,61 @@ extension Problem1 {
     }
 }
 
-
-fileprivate func isEachRequiredFieldValid(_ requiredField: [PassportField], _ hashTable: [PassportField : String]) -> Bool {
-    var isValidPass = true
-    for eachRequiredField in requiredField {
-        
-        let value = hashTable[eachRequiredField]
-        
-        switch eachRequiredField {
-        case .byr:
-            if !eachRequiredField.isValidByr(value) {
-                isValidPass = false
+extension Problem1 {
+    private func isEachRequiredFieldValid(_ requiredField: [PassportField], _ hashTable: [PassportField : String]) -> Bool {
+        var isValidPass = true
+        for eachRequiredField in requiredField {
+            
+            let value = hashTable[eachRequiredField]
+            
+            switch eachRequiredField {
+            case .byr:
+                if !eachRequiredField.isValidByr(value) {
+                    isValidPass = false
+                    break
+                }
+            case .iyr:
+                if !eachRequiredField.isValidIyr(value) {
+                    isValidPass = false
+                    break
+                }
+            case .eyr:
+                if !eachRequiredField.isValidEyr(value) {
+                    isValidPass = false
+                    break
+                }
+            case .hgt:
+                if !eachRequiredField.isValidHgt(value) {
+                    isValidPass = false
+                    break
+                }
+            case .hcl:
+                if !eachRequiredField.isValidHcl(value) {
+                    isValidPass = false
+                    break
+                }
+            case .ecl:
+                if !eachRequiredField.isValidEcl(value) {
+                    isValidPass = false
+                    break
+                }
+            case .pid:
+                if !eachRequiredField.isValidPid(value) {
+                    isValidPass = false
+                    break
+                }
+            case .cid:
+                continue
+            case .none:
+                continue
+            }
+            
+            if !isValidPass {
                 break
             }
-        case .iyr:
-            if !eachRequiredField.isValidIyr(value) {
-                isValidPass = false
-                break
-            }
-        case .eyr:
-            if !eachRequiredField.isValidEyr(value) {
-                isValidPass = false
-                break
-            }
-        case .hgt:
-            if !eachRequiredField.isValidHgt(value) {
-                isValidPass = false
-                break
-            }
-        case .hcl:
-            if !eachRequiredField.isValidHcl(value) {
-                isValidPass = false
-                break
-            }
-        case .ecl:
-            if !eachRequiredField.isValidEcl(value) {
-                isValidPass = false
-                break
-            }
-        case .pid:
-            if !eachRequiredField.isValidPid(value) {
-                isValidPass = false
-                break
-            }
-        case .cid:
-            continue
-        case .none:
-            continue
+            
         }
         
-        if !isValidPass {
-            break
-        }
-        
+        return isValidPass
     }
-    
-    return isValidPass
 }
