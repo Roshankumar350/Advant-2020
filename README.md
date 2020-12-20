@@ -32,3 +32,5 @@ Advant Day 4 solution by considering design.
  
 -  API documentation for locally reason about code. 
 
+-  Error Handling 
+
