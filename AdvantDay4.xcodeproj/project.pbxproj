@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		821C60D0258E70FC004FD32F /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C60CF258E70FC004FD32F /* Problem2.swift */; };
+		821C60D0258E70FC004FD32F /* Problem1+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C60CF258E70FC004FD32F /* Problem1+Extension.swift */; };
 		82570227258D1CE8006EC3FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82570226258D1CE8006EC3FD /* main.swift */; };
 		82570233258D2067006EC3FD /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82570232258D2067006EC3FD /* DataSource.swift */; };
 		82570237258D27C7006EC3FD /* Passport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82570236258D27C7006EC3FD /* Passport.swift */; };
+		8283A383258F30ED00B0B87E /* Matchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283A382258F30ED00B0B87E /* Matchable.swift */; };
 		82CAE345258DD1BD00999547 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE344258DD1BD00999547 /* Collection+Extension.swift */; };
 		82CAE348258DD3D000999547 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE347258DD3D000999547 /* String+Extension.swift */; };
 		82CAE34D258DDA7100999547 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE34C258DDA7100999547 /* Problem1.swift */; };
@@ -29,11 +30,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		821C60CF258E70FC004FD32F /* Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
+		821C60CF258E70FC004FD32F /* Problem1+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem1+Extension.swift"; sourceTree = "<group>"; };
 		82570223258D1CE8006EC3FD /* AdvantDay4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvantDay4; sourceTree = BUILT_PRODUCTS_DIR; };
 		82570226258D1CE8006EC3FD /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		82570232258D2067006EC3FD /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		82570236258D27C7006EC3FD /* Passport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passport.swift; sourceTree = "<group>"; };
+		8283A382258F30ED00B0B87E /* Matchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matchable.swift; sourceTree = "<group>"; };
 		82CAE344258DD1BD00999547 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		82CAE347258DD3D000999547 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		82CAE34C258DDA7100999547 /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
@@ -79,12 +81,21 @@
 			children = (
 				82570226258D1CE8006EC3FD /* main.swift */,
 				82CAE34C258DDA7100999547 /* Problem1.swift */,
-				821C60CF258E70FC004FD32F /* Problem2.swift */,
+				821C60CF258E70FC004FD32F /* Problem1+Extension.swift */,
+				8283A381258F30BE00B0B87E /* Protocol */,
 				821C60CD258E70E6004FD32F /* Passport */,
 				82CAE34A258DDA3400999547 /* Extension */,
 				82CAE34B258DDA4400999547 /* Resource */,
 			);
 			path = AdvantDay4;
+			sourceTree = "<group>";
+		};
+		8283A381258F30BE00B0B87E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8283A382258F30ED00B0B87E /* Matchable.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		82CAE34A258DDA3400999547 /* Extension */ = {
@@ -162,8 +173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				82570237258D27C7006EC3FD /* Passport.swift in Sources */,
-				821C60D0258E70FC004FD32F /* Problem2.swift in Sources */,
+				821C60D0258E70FC004FD32F /* Problem1+Extension.swift in Sources */,
 				82CAE345258DD1BD00999547 /* Collection+Extension.swift in Sources */,
+				8283A383258F30ED00B0B87E /* Matchable.swift in Sources */,
 				82570233258D2067006EC3FD /* DataSource.swift in Sources */,
 				82CAE34D258DDA7100999547 /* Problem1.swift in Sources */,
 				82CAE348258DD3D000999547 /* String+Extension.swift in Sources */,
