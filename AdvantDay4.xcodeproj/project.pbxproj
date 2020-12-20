@@ -12,6 +12,7 @@
 		82570233258D2067006EC3FD /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82570232258D2067006EC3FD /* DataSource.swift */; };
 		82570237258D27C7006EC3FD /* Passport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82570236258D27C7006EC3FD /* Passport.swift */; };
 		8283A383258F30ED00B0B87E /* Matchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283A382258F30ED00B0B87E /* Matchable.swift */; };
+		8283A388258F3A9400B0B87E /* Passport+Behaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283A387258F3A9400B0B87E /* Passport+Behaviour.swift */; };
 		82CAE345258DD1BD00999547 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE344258DD1BD00999547 /* Collection+Extension.swift */; };
 		82CAE348258DD3D000999547 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE347258DD3D000999547 /* String+Extension.swift */; };
 		82CAE34D258DDA7100999547 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE34C258DDA7100999547 /* Problem1.swift */; };
@@ -36,6 +37,7 @@
 		82570232258D2067006EC3FD /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		82570236258D27C7006EC3FD /* Passport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passport.swift; sourceTree = "<group>"; };
 		8283A382258F30ED00B0B87E /* Matchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matchable.swift; sourceTree = "<group>"; };
+		8283A387258F3A9400B0B87E /* Passport+Behaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Passport+Behaviour.swift"; sourceTree = "<group>"; };
 		82CAE344258DD1BD00999547 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		82CAE347258DD3D000999547 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		82CAE34C258DDA7100999547 /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				82570236258D27C7006EC3FD /* Passport.swift */,
+				8283A387258F3A9400B0B87E /* Passport+Behaviour.swift */,
 			);
 			path = Passport;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			files = (
 				82570237258D27C7006EC3FD /* Passport.swift in Sources */,
 				821C60D0258E70FC004FD32F /* Problem1+Extension.swift in Sources */,
+				8283A388258F3A9400B0B87E /* Passport+Behaviour.swift in Sources */,
 				82CAE345258DD1BD00999547 /* Collection+Extension.swift in Sources */,
 				8283A383258F30ED00B0B87E /* Matchable.swift in Sources */,
 				82570233258D2067006EC3FD /* DataSource.swift in Sources */,
