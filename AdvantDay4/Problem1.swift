@@ -35,3 +35,8 @@ struct Problem1: Matachable {
     }
 }
 
+extension Problem1 {
+    func incrementByOne(counterNumber number: inout Int) {
+        number += 1
+    }
+}

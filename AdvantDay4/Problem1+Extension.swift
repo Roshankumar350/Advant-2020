@@ -44,11 +44,7 @@ extension Problem1 {
 }
 
 extension Problem1 {
-    
-    func incrementByOne(counterNumber number: inout Int) {
-        number += 1
-    }
-    
+
     private func isEachRequiredFieldValid(_ requiredField: [PassportField], _ hashTable: [PassportField : String]) -> Bool {
         // MindMapping:-
         // Considering passport is valid, we will check it's field satisfy passport policy.
