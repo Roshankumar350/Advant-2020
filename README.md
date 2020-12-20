@@ -9,7 +9,7 @@ Advant Day 4 solution by considering design.
 -  Protocol with default implementation ( Has - A Relationship with struct `Problem1` )
 
 -  Retroactive modeling for  <br />
-1. Collection'a API : <br />
+1. Collection's API : <br />
   a. `func getPassportFieldInHashTable() throws  -> [PassportField: String] where Self.Element == String`
   
 2. String's API:- <br />
