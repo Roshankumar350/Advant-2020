@@ -17,6 +17,7 @@ protocol Matachable {
 }
 
 extension Matachable {
+    
     func isEachFieldMatches(of requiredFields: [PassportField], in givenFields: [PassportField]) -> Bool {
         // Output
         var isEachFieldMatches = true

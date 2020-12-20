@@ -15,6 +15,7 @@ import Foundation
  ecl (Eye Color)
  pid (Passport ID)
  cid (Country ID) // Optional
+ non (Absence of ID)
  */
 
 /// Passport  Fields
@@ -46,6 +47,7 @@ extension PassportField {
 }
 
 extension PassportField {
+    
     /// These are minimal required field must match to make valid passport
     static var requiredField: [PassportField] {
         let requiredFields: [PassportField] = [.byr, .iyr, .eyr, .hgt, .hcl, .ecl, .pid]

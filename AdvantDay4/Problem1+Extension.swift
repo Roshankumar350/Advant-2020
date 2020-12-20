@@ -44,7 +44,11 @@ extension Problem1 {
 }
 
 extension Problem1 {
+    
     private func isEachRequiredFieldValid(_ requiredField: [PassportField], _ hashTable: [PassportField : String]) -> Bool {
+        // MindMapping:-
+        // Considering passport is valid, we will check it's field satisfy passport policy.
+        // If any one fails to satisfy the same. It's not a valid Passport
         var isValidPass = true
         for eachRequiredField in requiredField {
             
