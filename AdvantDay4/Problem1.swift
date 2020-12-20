@@ -13,9 +13,9 @@ struct Problem1: Matachable {
         var numberOfValidPassport = 0
         var numberOfInvalidPassport = 0
         
-        dataSource.forEach  { eachInputString in
+        dataSource.forEach  { input in
             // Get the component string
-            let firstInputComponentString = eachInputString.getStringComponent(for: .whitespacesAndNewlines)
+            let firstInputComponentString = input.getStringComponent(for: .whitespacesAndNewlines)
             
             // Building hash table and get the keys
             let hashTable = firstInputComponentString.getPassportFieldInHashTable()
@@ -25,15 +25,11 @@ struct Problem1: Matachable {
             let requiredField = PassportField.requiredField
             
             if isEachFieldMatches(of: requiredField, in: inputFieldsKeys) {
-                numberOfValidPassport += 1
+                self.incrementByOne(counterNumber: &numberOfValidPassport)
             } else {
-                numberOfInvalidPassport += 1
+                self.incrementByOne(counterNumber: &numberOfInvalidPassport)
             }
         }
-        
-        //    debugPrint("Total number of passport is \(numberOfValidPassport + numberOfInvalidPassport)")
-        //    debugPrint("Total number of valid passport is \(numberOfValidPassport)")
-        //    debugPrint("Total number of inValid passport is \(numberOfInvalidPassport)")
         
         return numberOfValidPassport
     }

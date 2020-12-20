@@ -13,9 +13,9 @@ extension Problem1 {
         var numberOfValidPassport = 0
         var numberOfInvalidPassport = 0
         
-        dataSource.forEach  { eachInputString in
+        dataSource.forEach  { input in
             // Get the component string
-            let firstInputComponentString = eachInputString.getStringComponent(for: .whitespacesAndNewlines)
+            let firstInputComponentString = input.getStringComponent(for: .whitespacesAndNewlines)
             
             // Building hash table and get the keys
             let hashTable = firstInputComponentString.getPassportFieldInHashTable()
@@ -26,12 +26,12 @@ extension Problem1 {
             
             if isEachFieldMatches(of: requiredField, in: inputFieldsKeys) {
                 if isEachRequiredFieldValid(requiredField, hashTable) {
-                    numberOfValidPassport += 1
+                    self.incrementByOne(counterNumber: &numberOfValidPassport)
                 } else {
-                    numberOfInvalidPassport += 1
+                    self.incrementByOne(counterNumber: &numberOfInvalidPassport)
                 }
             } else {
-                numberOfInvalidPassport += 1
+                self.incrementByOne(counterNumber: &numberOfInvalidPassport)
             }
         }
         
@@ -44,6 +44,10 @@ extension Problem1 {
 }
 
 extension Problem1 {
+    
+    func incrementByOne(counterNumber number: inout Int) {
+        number += 1
+    }
     
     private func isEachRequiredFieldValid(_ requiredField: [PassportField], _ hashTable: [PassportField : String]) -> Bool {
         // MindMapping:-
