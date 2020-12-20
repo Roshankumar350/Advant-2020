@@ -31,6 +31,19 @@ enum PassportField: String, CaseIterable {
 }
 
 extension PassportField {
+    private struct Constant {
+        static let birthYear = (1920...2002)
+        static let yearOfIssue = (2010...2020)
+        static let expirationYear = (2020...2030)
+        static let heightInCM = (150...193)
+        static let heightInIn = (59...76)
+        static let regexForHCL = "#[0-9a-f]{6}"
+        static let eyeColor = ["amb", "blu", "brn", "gry", "grn", "hzl", "oth"]
+    }
+    
+}
+
+extension PassportField {
     /// These are minimal required field must match to make valid passport
     static var requiredField: [PassportField] {
         let requiredFields: [PassportField] = [.byr, .iyr, .eyr, .hgt, .hcl, .ecl, .pid]
@@ -51,7 +64,7 @@ extension PassportField {
             return _isValidByr
         }
         
-        if (1920...2002).contains(number) {
+        if Constant.birthYear.contains(number) {
             _isValidByr.toggle()
         }
         
@@ -69,7 +82,7 @@ extension PassportField {
             return _isValidIyr
         }
         
-        if (2010...2020).contains(number) {
+        if Constant.yearOfIssue.contains(number) {
             _isValidIyr.toggle()
         }
         
@@ -87,7 +100,7 @@ extension PassportField {
             return _isValidEyr
         }
         
-        if (2020...2030).contains(number) {
+        if Constant.expirationYear.contains(number) {
             _isValidEyr.toggle()
         }
         
@@ -108,7 +121,7 @@ extension PassportField {
                 return _isValidHgt
             }
             
-            if (150...193).contains(number) {
+            if Constant.heightInCM.contains(number) {
                 _isValidHgt.toggle()
             }
             
@@ -119,11 +132,12 @@ extension PassportField {
                 return _isValidHgt
             }
             
-            if (59...76).contains(number) {
+            if Constant.heightInIn.contains(number) {
                 _isValidHgt.toggle()
             }
             
         }
+        
         return _isValidHgt
     }
     
@@ -133,14 +147,20 @@ extension PassportField {
             return _isValidHcl
         }
         
-        let regex = try! NSRegularExpression(pattern: "#[0-9a-f]{6}")
+        let regex = try! NSRegularExpression(pattern: Constant.regexForHCL)
         _isValidHcl = regex.matches(in: hairColor, range:  NSRange(location: 0, length: hairColor.utf16.count)).count == 1
+        
         return _isValidHcl
     }
     
     func isValidEcl(_ ecl: String?)-> Bool {
         var _isValidEcl = false
-        _isValidEcl = ["amb", "blu", "brn", "gry", "grn", "hzl", "oth"].contains(ecl)
+        
+        guard let eyeColor = ecl else {
+            return _isValidEcl
+        }
+        _isValidEcl = Constant.eyeColor.contains(eyeColor)
+        
         return _isValidEcl
     }
     
@@ -160,7 +180,6 @@ extension PassportField {
         }
         
         _isValidPid.toggle()
-        
         
         return _isValidPid
     }
