@@ -8,13 +8,13 @@ Advant Day 4 solution by considering design.
 ## Non Functional
 -  Protocol with default implementation ( Has - A Relationship with struct `Problem1` )
 
--  Retroactive modeling for  <br\>
-1. Collection'a API : <br\>
+-  Retroactive modeling for  <br />
+1. Collection'a API : <br />
   a. `func getPassportFieldInHashTable() throws  -> [PassportField: String] where Self.Element == String`
   
-2. String's API:- <br\>
-  a.` func getStringComponent(for givenCharacterSet: CharacterSet) -> [String]` <br\>
-  b. `func getInteger()-> Int?` <br\>
+2. String's API:- <br />
+  a.` func getStringComponent(for givenCharacterSet: CharacterSet) -> [String]` <br />
+  b. `func getInteger()-> Int?` <br />
   
 -  Enum `PassportField` for type-safty better than String 
 
