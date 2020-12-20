@@ -18,7 +18,7 @@ struct Problem1: Matachable {
             let firstInputComponentString = input.getStringComponent(for: .whitespacesAndNewlines)
             
             // Building hash table and get the keys
-            let hashTable = firstInputComponentString.getPassportFieldInHashTable()
+            guard let hashTable = try? firstInputComponentString.getPassportFieldInHashTable() else { return }
             let inputFieldsKeys = Array(hashTable.keys)
             
             // Get the required Field

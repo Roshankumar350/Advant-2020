@@ -15,7 +15,10 @@ extension String {
         self.components(separatedBy: givenCharacterSet)
     }
     
+    /// Use this method to get the `Int`  from `String`
+    /// - Returns: Optional Int
     func getInteger()-> Int? {
         return Int(self)
     }
+    
 }
