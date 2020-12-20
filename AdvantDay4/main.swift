@@ -10,3 +10,5 @@ import Foundation
 let processedArray = dataSource.components(separatedBy: "\n\n")
 
 print("Solution of Part 1 is \(solvePartOne(having: processedArray))")
+
+print("Solution of Part 2 is \(solvePartTwo(having: processedArray))")

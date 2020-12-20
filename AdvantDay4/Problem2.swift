@@ -24,21 +24,82 @@ func solvePartTwo(having dataSource: [String]) -> Int {
         let requiredField = PassportField.requiredField
         
         if isEachFieldMatches(of: requiredField, in: inputFieldsKeys) {
-            numberOfValidPassport += 1
+            if isEachRequiredFieldValid(requiredField, hashTable) {
+                numberOfValidPassport += 1
+            } else {
+                numberOfInvalidPassport += 1
+            }
         } else {
             numberOfInvalidPassport += 1
         }
     }
 
-    debugPrint("Total number of passport is \(numberOfValidPassport + numberOfInvalidPassport)")
-    debugPrint("Total number of valid passport is \(numberOfValidPassport)")
-    debugPrint("Total number of inValid passport is \(numberOfInvalidPassport)")
+//    debugPrint("Total number of passport is \(numberOfValidPassport + numberOfInvalidPassport)")
+//    debugPrint("Total number of valid passport is \(numberOfValidPassport)")
+//    debugPrint("Total number of inValid passport is \(numberOfInvalidPassport)")
     
     return numberOfValidPassport
 }
 
+fileprivate func isEachRequiredFieldValid(_ requiredField: [PassportField], _ hashTable: [PassportField : String]) -> Bool {
+    var isValidPass = true
+    for eachRequiredField in requiredField {
+        
+        let value = hashTable[eachRequiredField]
+        
+        switch eachRequiredField {
+        case .byr:
+            if !eachRequiredField.isValidByr(value) {
+                isValidPass = false
+                break
+            }
+        case .iyr:
+            if !eachRequiredField.isValidIyr(value) {
+                isValidPass = false
+                break
+            }
+        case .eyr:
+            if !eachRequiredField.isValidEyr(value) {
+                isValidPass = false
+                break
+            }
+        case .hgt:
+            if !eachRequiredField.isValidHgt(value) {
+                isValidPass = false
+                break
+            }
+        case .hcl:
+            if !eachRequiredField.isValidHcl(value) {
+                isValidPass = false
+                break
+            }
+        case .ecl:
+            if !eachRequiredField.isValidEcl(value) {
+                isValidPass = false
+                break
+            }
+        case .pid:
+            if !eachRequiredField.isValidPid(value) {
+                isValidPass = false
+                break
+            }
+        case .cid:
+            continue
+        case .none:
+            continue
+        }
+        
+        if !isValidPass {
+            break
+        }
+        
+    }
+    
+    return isValidPass
+}
 
-/// This will validate whether each required field is present in given field
+
+/// This will validate whether each field in `requiredFields`  is present in `givenFields`
 /// - Parameters:
 ///   - requiredFields: Are fields which are required to Validate a passport. Type is `PassportField`
 ///   - givenFields: Are fields which are in PassportField. Type is `PassportField`

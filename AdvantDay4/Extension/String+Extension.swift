@@ -14,4 +14,8 @@ extension String {
     func getStringComponent(for givenCharacterSet: CharacterSet) -> [String] {
         self.components(separatedBy: givenCharacterSet)
     }
+    
+    func getInteger()-> Int? {
+        return Int(self)
+    }
 }

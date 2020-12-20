@@ -30,9 +30,9 @@ func solvePartOne(having dataSource: [String]) -> Int {
         }
     }
 
-    debugPrint("Total number of passport is \(numberOfValidPassport + numberOfInvalidPassport)")
-    debugPrint("Total number of valid passport is \(numberOfValidPassport)")
-    debugPrint("Total number of inValid passport is \(numberOfInvalidPassport)")
+//    debugPrint("Total number of passport is \(numberOfValidPassport + numberOfInvalidPassport)")
+//    debugPrint("Total number of valid passport is \(numberOfValidPassport)")
+//    debugPrint("Total number of inValid passport is \(numberOfInvalidPassport)")
     
     return numberOfValidPassport
 }
