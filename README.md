@@ -47,5 +47,5 @@ https://adventofcode.com/2020/day/5
 
 ## Functional
 - [x]  Solution for Part 1
-- []  Solution for Part 2
+- [x]  Solution for Part 2
 
