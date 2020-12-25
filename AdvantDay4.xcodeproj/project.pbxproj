@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8211587925964A1800741D7F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211587825964A1800741D7F /* main.swift */; };
+		8211588125964A4F00741D7F /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211588025964A4F00741D7F /* DataSource.swift */; };
+		82115887259668A700741D7F /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82115886259668A700741D7F /* Problem1.swift */; };
 		821C60D0258E70FC004FD32F /* Problem1+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C60CF258E70FC004FD32F /* Problem1+Extension.swift */; };
 		82570227258D1CE8006EC3FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82570226258D1CE8006EC3FD /* main.swift */; };
 		82570233258D2067006EC3FD /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82570232258D2067006EC3FD /* DataSource.swift */; };
@@ -19,6 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		8211587425964A1800741D7F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		82570221258D1CE8006EC3FD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -31,6 +43,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8211587625964A1800741D7F /* AdvantDay5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvantDay5; sourceTree = BUILT_PRODUCTS_DIR; };
+		8211587825964A1800741D7F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8211588025964A4F00741D7F /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		82115886259668A700741D7F /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 		821C60CF258E70FC004FD32F /* Problem1+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem1+Extension.swift"; sourceTree = "<group>"; };
 		82570223258D1CE8006EC3FD /* AdvantDay4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvantDay4; sourceTree = BUILT_PRODUCTS_DIR; };
 		82570226258D1CE8006EC3FD /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -44,6 +60,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8211587325964A1800741D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82570220258D1CE8006EC3FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,6 +77,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8211587725964A1800741D7F /* AdvantDay5 */ = {
+			isa = PBXGroup;
+			children = (
+				8211587825964A1800741D7F /* main.swift */,
+				82115886259668A700741D7F /* Problem1.swift */,
+				8211587F25964A4F00741D7F /* Resource */,
+			);
+			path = AdvantDay5;
+			sourceTree = "<group>";
+		};
+		8211587F25964A4F00741D7F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8211588025964A4F00741D7F /* DataSource.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		821C60CD258E70E6004FD32F /* Passport */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				82570225258D1CE8006EC3FD /* AdvantDay4 */,
+				8211587725964A1800741D7F /* AdvantDay5 */,
 				82570224258D1CE8006EC3FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				82570223258D1CE8006EC3FD /* AdvantDay4 */,
+				8211587625964A1800741D7F /* AdvantDay5 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +164,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8211587525964A1800741D7F /* AdvantDay5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8211587C25964A1800741D7F /* Build configuration list for PBXNativeTarget "AdvantDay5" */;
+			buildPhases = (
+				8211587225964A1800741D7F /* Sources */,
+				8211587325964A1800741D7F /* Frameworks */,
+				8211587425964A1800741D7F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvantDay5;
+			productName = AdvantDay5;
+			productReference = 8211587625964A1800741D7F /* AdvantDay5 */;
+			productType = "com.apple.product-type.tool";
+		};
 		82570222258D1CE8006EC3FD /* AdvantDay4 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8257022A258D1CE8006EC3FD /* Build configuration list for PBXNativeTarget "AdvantDay4" */;
@@ -147,6 +207,9 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					8211587525964A1800741D7F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					82570222258D1CE8006EC3FD = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -166,11 +229,22 @@
 			projectRoot = "";
 			targets = (
 				82570222258D1CE8006EC3FD /* AdvantDay4 */,
+				8211587525964A1800741D7F /* AdvantDay5 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8211587225964A1800741D7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82115887259668A700741D7F /* Problem1.swift in Sources */,
+				8211588125964A4F00741D7F /* DataSource.swift in Sources */,
+				8211587925964A1800741D7F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8257021F258D1CE8006EC3FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,6 +264,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		8211587A25964A1800741D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NRJNYGFB33;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8211587B25964A1800741D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NRJNYGFB33;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		82570228258D1CE8006EC3FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -330,6 +426,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8211587C25964A1800741D7F /* Build configuration list for PBXNativeTarget "AdvantDay5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211587A25964A1800741D7F /* Debug */,
+				8211587B25964A1800741D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8257021E258D1CE8006EC3FD /* Build configuration list for PBXProject "AdvantDay4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
