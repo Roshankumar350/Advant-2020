@@ -37,3 +37,15 @@ https://adventofcode.com/2020/day/4
 
 -  Error Handling 
 
+
+
+# AdvantDay5
+Advant Day 5 solution
+
+- Problem Statement:- <br />
+https://adventofcode.com/2020/day/5
+
+## Functional
+- [x]  Solution for Part 1
+- []  Solution for Part 2
+
