@@ -76,7 +76,7 @@
 		82115886259668A700741D7F /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 		8211588A25966D3C00741D7F /* Problem1+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem1+Extension.swift"; sourceTree = "<group>"; };
 		821C60CF258E70FC004FD32F /* Problem1+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem1+Extension.swift"; sourceTree = "<group>"; };
-		82570223258D1CE8006EC3FD /* AdvantDay4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvantDay4; sourceTree = BUILT_PRODUCTS_DIR; };
+		82570223258D1CE8006EC3FD /* AdvantDay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvantDay; sourceTree = BUILT_PRODUCTS_DIR; };
 		82570226258D1CE8006EC3FD /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		82570232258D2067006EC3FD /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		82570236258D27C7006EC3FD /* Passport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passport.swift; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 		82570224258D1CE8006EC3FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82570223258D1CE8006EC3FD /* AdvantDay4 */,
+				82570223258D1CE8006EC3FD /* AdvantDay */,
 				8211587625964A1800741D7F /* AdvantDay5 */,
 				8257B0F02596EAEA00DAAA15 /* AdvantDay6 */,
 				8257B19225972E8A00DAAA15 /* AdvantDay1 */,
@@ -268,9 +268,9 @@
 			productReference = 8211587625964A1800741D7F /* AdvantDay5 */;
 			productType = "com.apple.product-type.tool";
 		};
-		82570222258D1CE8006EC3FD /* AdvantDay4 */ = {
+		82570222258D1CE8006EC3FD /* AdvantDay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8257022A258D1CE8006EC3FD /* Build configuration list for PBXNativeTarget "AdvantDay4" */;
+			buildConfigurationList = 8257022A258D1CE8006EC3FD /* Build configuration list for PBXNativeTarget "AdvantDay" */;
 			buildPhases = (
 				8257021F258D1CE8006EC3FD /* Sources */,
 				82570220258D1CE8006EC3FD /* Frameworks */,
@@ -280,9 +280,9 @@
 			);
 			dependencies = (
 			);
-			name = AdvantDay4;
+			name = AdvantDay;
 			productName = AdvantDay4;
-			productReference = 82570223258D1CE8006EC3FD /* AdvantDay4 */;
+			productReference = 82570223258D1CE8006EC3FD /* AdvantDay */;
 			productType = "com.apple.product-type.tool";
 		};
 		8257B0EF2596EAEA00DAAA15 /* AdvantDay6 */ = {
@@ -342,7 +342,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8257021E258D1CE8006EC3FD /* Build configuration list for PBXProject "AdvantDay4" */;
+			buildConfigurationList = 8257021E258D1CE8006EC3FD /* Build configuration list for PBXProject "AdvantDay" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -355,7 +355,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82570222258D1CE8006EC3FD /* AdvantDay4 */,
+				82570222258D1CE8006EC3FD /* AdvantDay */,
 				8211587525964A1800741D7F /* AdvantDay5 */,
 				8257B0EF2596EAEA00DAAA15 /* AdvantDay6 */,
 				8257B19125972E8A00DAAA15 /* AdvantDay1 */,
@@ -631,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8257021E258D1CE8006EC3FD /* Build configuration list for PBXProject "AdvantDay4" */ = {
+		8257021E258D1CE8006EC3FD /* Build configuration list for PBXProject "AdvantDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82570228258D1CE8006EC3FD /* Debug */,
@@ -640,7 +640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8257022A258D1CE8006EC3FD /* Build configuration list for PBXNativeTarget "AdvantDay4" */ = {
+		8257022A258D1CE8006EC3FD /* Build configuration list for PBXNativeTarget "AdvantDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8257022B258D1CE8006EC3FD /* Debug */,
