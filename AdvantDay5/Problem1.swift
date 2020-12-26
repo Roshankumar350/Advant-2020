@@ -43,7 +43,7 @@ struct Problem1 {
 
 extension Problem1 {
     // MARK: - Helper
-    private func getFirstSevenBitSet(for element: String) -> String {
+     func getFirstSevenBitSet(for element: String) -> String {
         guard element.count > 9 else {
             return ""
         }
@@ -64,7 +64,7 @@ extension Problem1 {
         return bitSet
     }
 
-    private func getThreeBitSet(for element: String) -> String {
+     func getThreeBitSet(for element: String) -> String {
         guard element.count > 9 else {
             return ""
         }
