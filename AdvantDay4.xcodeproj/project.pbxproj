@@ -19,6 +19,9 @@
 		8257B0FB2596EB2000DAAA15 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257B0FA2596EB2000DAAA15 /* DataSource.swift */; };
 		8257B1042596ED7B00DAAA15 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257B1032596ED7B00DAAA15 /* Problem1.swift */; };
 		8257B10D2596F3FF00DAAA15 /* Problem1+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257B10C2596F3FF00DAAA15 /* Problem1+Extension.swift */; };
+		8257B19525972E8A00DAAA15 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257B19425972E8A00DAAA15 /* main.swift */; };
+		8257B19E25972EA200DAAA15 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257B19D25972EA200DAAA15 /* DataSource.swift */; };
+		8257B1A825972EBC00DAAA15 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257B1A725972EBC00DAAA15 /* Problem1.swift */; };
 		8283A383258F30ED00B0B87E /* Matchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283A382258F30ED00B0B87E /* Matchable.swift */; };
 		8283A388258F3A9400B0B87E /* Passport+Behaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283A387258F3A9400B0B87E /* Passport+Behaviour.swift */; };
 		82CAE345258DD1BD00999547 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE344258DD1BD00999547 /* Collection+Extension.swift */; };
@@ -54,6 +57,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		8257B19025972E8A00DAAA15 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +84,10 @@
 		8257B0FA2596EB2000DAAA15 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		8257B1032596ED7B00DAAA15 /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 		8257B10C2596F3FF00DAAA15 /* Problem1+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem1+Extension.swift"; sourceTree = "<group>"; };
+		8257B19225972E8A00DAAA15 /* AdvantDay1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvantDay1; sourceTree = BUILT_PRODUCTS_DIR; };
+		8257B19425972E8A00DAAA15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8257B19D25972EA200DAAA15 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		8257B1A725972EBC00DAAA15 /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 		8283A382258F30ED00B0B87E /* Matchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matchable.swift; sourceTree = "<group>"; };
 		8283A387258F3A9400B0B87E /* Passport+Behaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Passport+Behaviour.swift"; sourceTree = "<group>"; };
 		82CAE344258DD1BD00999547 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
@@ -95,6 +111,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8257B0ED2596EAEA00DAAA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8257B18F25972E8A00DAAA15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -135,6 +158,7 @@
 		8257021A258D1CE8006EC3FD = {
 			isa = PBXGroup;
 			children = (
+				8257B19325972E8A00DAAA15 /* AdvantDay1 */,
 				82570225258D1CE8006EC3FD /* AdvantDay4 */,
 				8211587725964A1800741D7F /* AdvantDay5 */,
 				8257B0F12596EAEA00DAAA15 /* AdvantDay6 */,
@@ -148,6 +172,7 @@
 				82570223258D1CE8006EC3FD /* AdvantDay4 */,
 				8211587625964A1800741D7F /* AdvantDay5 */,
 				8257B0F02596EAEA00DAAA15 /* AdvantDay6 */,
+				8257B19225972E8A00DAAA15 /* AdvantDay1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,6 +208,16 @@
 				8257B0FA2596EB2000DAAA15 /* DataSource.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		8257B19325972E8A00DAAA15 /* AdvantDay1 */ = {
+			isa = PBXGroup;
+			children = (
+				8257B19425972E8A00DAAA15 /* main.swift */,
+				8257B1A725972EBC00DAAA15 /* Problem1.swift */,
+				8257B19D25972EA200DAAA15 /* DataSource.swift */,
+			);
+			path = AdvantDay1;
 			sourceTree = "<group>";
 		};
 		8283A381258F30BE00B0B87E /* Protocol */ = {
@@ -264,6 +299,23 @@
 			productReference = 8257B0F02596EAEA00DAAA15 /* AdvantDay6 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8257B19125972E8A00DAAA15 /* AdvantDay1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8257B19625972E8A00DAAA15 /* Build configuration list for PBXNativeTarget "AdvantDay1" */;
+			buildPhases = (
+				8257B18E25972E8A00DAAA15 /* Sources */,
+				8257B18F25972E8A00DAAA15 /* Frameworks */,
+				8257B19025972E8A00DAAA15 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvantDay1;
+			productName = AdvantDay1;
+			productReference = 8257B19225972E8A00DAAA15 /* AdvantDay1 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -280,6 +332,9 @@
 						CreatedOnToolsVersion = 12.0.1;
 					};
 					8257B0EF2596EAEA00DAAA15 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					8257B19125972E8A00DAAA15 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
@@ -300,6 +355,7 @@
 				82570222258D1CE8006EC3FD /* AdvantDay4 */,
 				8211587525964A1800741D7F /* AdvantDay5 */,
 				8257B0EF2596EAEA00DAAA15 /* AdvantDay6 */,
+				8257B19125972E8A00DAAA15 /* AdvantDay1 */,
 			);
 		};
 /* End PBXProject section */
@@ -340,6 +396,16 @@
 				8257B10D2596F3FF00DAAA15 /* Problem1+Extension.swift in Sources */,
 				8257B0FB2596EB2000DAAA15 /* DataSource.swift in Sources */,
 				8257B0F32596EAEA00DAAA15 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8257B18E25972E8A00DAAA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8257B1A825972EBC00DAAA15 /* Problem1.swift in Sources */,
+				8257B19E25972EA200DAAA15 /* DataSource.swift in Sources */,
+				8257B19525972E8A00DAAA15 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +593,28 @@
 			};
 			name = Release;
 		};
+		8257B19725972E8A00DAAA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NRJNYGFB33;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8257B19825972E8A00DAAA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NRJNYGFB33;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -562,6 +650,15 @@
 			buildConfigurations = (
 				8257B0F42596EAEA00DAAA15 /* Debug */,
 				8257B0F52596EAEA00DAAA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8257B19625972E8A00DAAA15 /* Build configuration list for PBXNativeTarget "AdvantDay1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8257B19725972E8A00DAAA15 /* Debug */,
+				8257B19825972E8A00DAAA15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
