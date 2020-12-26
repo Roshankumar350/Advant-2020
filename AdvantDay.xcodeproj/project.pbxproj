@@ -12,6 +12,9 @@
 		82115887259668A700741D7F /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82115886259668A700741D7F /* Problem1.swift */; };
 		8211588B25966D3C00741D7F /* Problem1+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211588A25966D3C00741D7F /* Problem1+Extension.swift */; };
 		821C60D0258E70FC004FD32F /* Problem1+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C60CF258E70FC004FD32F /* Problem1+Extension.swift */; };
+		821F08B62597AC6B009471F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F08B52597AC6B009471F5 /* main.swift */; };
+		821F08C02597AE1B009471F5 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F08BF2597AE1B009471F5 /* DataSource.swift */; };
+		821F08CC2597AE7E009471F5 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F08CB2597AE7E009471F5 /* Problem1.swift */; };
 		82570227258D1CE8006EC3FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82570226258D1CE8006EC3FD /* main.swift */; };
 		82570233258D2067006EC3FD /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82570232258D2067006EC3FD /* DataSource.swift */; };
 		82570237258D27C7006EC3FD /* Passport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82570236258D27C7006EC3FD /* Passport.swift */; };
@@ -32,6 +35,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8211587425964A1800741D7F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		821F08B12597AC6B009471F5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -76,6 +88,10 @@
 		82115886259668A700741D7F /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 		8211588A25966D3C00741D7F /* Problem1+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem1+Extension.swift"; sourceTree = "<group>"; };
 		821C60CF258E70FC004FD32F /* Problem1+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem1+Extension.swift"; sourceTree = "<group>"; };
+		821F08B32597AC6B009471F5 /* AdvantDay2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvantDay2; sourceTree = BUILT_PRODUCTS_DIR; };
+		821F08B52597AC6B009471F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		821F08BF2597AE1B009471F5 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		821F08CB2597AE7E009471F5 /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 		82570223258D1CE8006EC3FD /* AdvantDay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvantDay; sourceTree = BUILT_PRODUCTS_DIR; };
 		82570226258D1CE8006EC3FD /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		82570232258D2067006EC3FD /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
@@ -99,6 +115,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8211587325964A1800741D7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821F08B02597AC6B009471F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -157,10 +180,21 @@
 			path = Passport;
 			sourceTree = "<group>";
 		};
+		821F08B42597AC6B009471F5 /* AdvantDay2 */ = {
+			isa = PBXGroup;
+			children = (
+				821F08B52597AC6B009471F5 /* main.swift */,
+				821F08CB2597AE7E009471F5 /* Problem1.swift */,
+				821F08BF2597AE1B009471F5 /* DataSource.swift */,
+			);
+			path = AdvantDay2;
+			sourceTree = "<group>";
+		};
 		8257021A258D1CE8006EC3FD = {
 			isa = PBXGroup;
 			children = (
 				8257B19325972E8A00DAAA15 /* AdvantDay1 */,
+				821F08B42597AC6B009471F5 /* AdvantDay2 */,
 				82570225258D1CE8006EC3FD /* AdvantDay4 */,
 				8211587725964A1800741D7F /* AdvantDay5 */,
 				8257B0F12596EAEA00DAAA15 /* AdvantDay6 */,
@@ -175,6 +209,7 @@
 				8211587625964A1800741D7F /* AdvantDay5 */,
 				8257B0F02596EAEA00DAAA15 /* AdvantDay6 */,
 				8257B19225972E8A00DAAA15 /* AdvantDay1 */,
+				821F08B32597AC6B009471F5 /* AdvantDay2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,6 +303,23 @@
 			productReference = 8211587625964A1800741D7F /* AdvantDay5 */;
 			productType = "com.apple.product-type.tool";
 		};
+		821F08B22597AC6B009471F5 /* AdvantDay2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821F08B72597AC6B009471F5 /* Build configuration list for PBXNativeTarget "AdvantDay2" */;
+			buildPhases = (
+				821F08AF2597AC6B009471F5 /* Sources */,
+				821F08B02597AC6B009471F5 /* Frameworks */,
+				821F08B12597AC6B009471F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvantDay2;
+			productName = AdvantDay2;
+			productReference = 821F08B32597AC6B009471F5 /* AdvantDay2 */;
+			productType = "com.apple.product-type.tool";
+		};
 		82570222258D1CE8006EC3FD /* AdvantDay */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8257022A258D1CE8006EC3FD /* Build configuration list for PBXNativeTarget "AdvantDay" */;
@@ -331,6 +383,9 @@
 					8211587525964A1800741D7F = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					821F08B22597AC6B009471F5 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					82570222258D1CE8006EC3FD = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -359,6 +414,7 @@
 				8211587525964A1800741D7F /* AdvantDay5 */,
 				8257B0EF2596EAEA00DAAA15 /* AdvantDay6 */,
 				8257B19125972E8A00DAAA15 /* AdvantDay1 */,
+				821F08B22597AC6B009471F5 /* AdvantDay2 */,
 			);
 		};
 /* End PBXProject section */
@@ -372,6 +428,16 @@
 				8211588B25966D3C00741D7F /* Problem1+Extension.swift in Sources */,
 				8211588125964A4F00741D7F /* DataSource.swift in Sources */,
 				8211587925964A1800741D7F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821F08AF2597AC6B009471F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821F08CC2597AE7E009471F5 /* Problem1.swift in Sources */,
+				821F08C02597AE1B009471F5 /* DataSource.swift in Sources */,
+				821F08B62597AC6B009471F5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +494,28 @@
 			name = Debug;
 		};
 		8211587B25964A1800741D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NRJNYGFB33;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		821F08B82597AC6B009471F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NRJNYGFB33;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		821F08B92597AC6B009471F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -627,6 +715,15 @@
 			buildConfigurations = (
 				8211587A25964A1800741D7F /* Debug */,
 				8211587B25964A1800741D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821F08B72597AC6B009471F5 /* Build configuration list for PBXNativeTarget "AdvantDay2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821F08B82597AC6B009471F5 /* Debug */,
+				821F08B92597AC6B009471F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
