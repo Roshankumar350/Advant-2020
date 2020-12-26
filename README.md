@@ -49,3 +49,13 @@ https://adventofcode.com/2020/day/5
 - [x]  Solution for Part 1
 - [x]  Solution for Part 2
 
+# AdvantDay6
+Advant Day 6 solution
+
+- Problem Statement:- <br />
+https://adventofcode.com/2020/day/6
+
+## Functional
+- [x]  Solution for Part 1
+- [x]  Solution for Part 2
+
