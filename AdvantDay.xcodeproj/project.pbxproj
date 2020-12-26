@@ -15,6 +15,7 @@
 		821F08B62597AC6B009471F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F08B52597AC6B009471F5 /* main.swift */; };
 		821F08C02597AE1B009471F5 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F08BF2597AE1B009471F5 /* DataSource.swift */; };
 		821F08CC2597AE7E009471F5 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F08CB2597AE7E009471F5 /* Problem1.swift */; };
+		821F08D32597AFB1009471F5 /* Problem1+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F08D22597AFB1009471F5 /* Problem1+Extension.swift */; };
 		82570227258D1CE8006EC3FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82570226258D1CE8006EC3FD /* main.swift */; };
 		82570233258D2067006EC3FD /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82570232258D2067006EC3FD /* DataSource.swift */; };
 		82570237258D27C7006EC3FD /* Passport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82570236258D27C7006EC3FD /* Passport.swift */; };
@@ -92,6 +93,7 @@
 		821F08B52597AC6B009471F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		821F08BF2597AE1B009471F5 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		821F08CB2597AE7E009471F5 /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
+		821F08D22597AFB1009471F5 /* Problem1+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem1+Extension.swift"; sourceTree = "<group>"; };
 		82570223258D1CE8006EC3FD /* AdvantDay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvantDay; sourceTree = BUILT_PRODUCTS_DIR; };
 		82570226258D1CE8006EC3FD /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		82570232258D2067006EC3FD /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			children = (
 				821F08B52597AC6B009471F5 /* main.swift */,
 				821F08CB2597AE7E009471F5 /* Problem1.swift */,
+				821F08D22597AFB1009471F5 /* Problem1+Extension.swift */,
 				821F08BF2597AE1B009471F5 /* DataSource.swift */,
 			);
 			path = AdvantDay2;
@@ -435,6 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821F08D32597AFB1009471F5 /* Problem1+Extension.swift in Sources */,
 				821F08CC2597AE7E009471F5 /* Problem1.swift in Sources */,
 				821F08C02597AE1B009471F5 /* DataSource.swift in Sources */,
 				821F08B62597AC6B009471F5 /* main.swift in Sources */,

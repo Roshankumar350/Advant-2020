@@ -12,4 +12,5 @@ let processedArray = dataSource.components(separatedBy: CharacterSet.newlines)
 let validPasswordCount = processedArray.filter{ Problem1().isvalidPasswordPolicy($0) }.count
 print("Solution of part 1 is \(validPasswordCount)")
 
-
+let validPasswordCountTwo = processedArray.filter{ Problem1().isvalidPasswordPolicyPartTwo($0) }.count
+print("Solution of part 2 is \(validPasswordCountTwo)")
