@@ -22,6 +22,7 @@
 		8257B19525972E8A00DAAA15 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257B19425972E8A00DAAA15 /* main.swift */; };
 		8257B19E25972EA200DAAA15 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257B19D25972EA200DAAA15 /* DataSource.swift */; };
 		8257B1A825972EBC00DAAA15 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257B1A725972EBC00DAAA15 /* Problem1.swift */; };
+		8257B1AE259732BC00DAAA15 /* Problem1+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8257B1AD259732BB00DAAA15 /* Problem1+Extension.swift */; };
 		8283A383258F30ED00B0B87E /* Matchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283A382258F30ED00B0B87E /* Matchable.swift */; };
 		8283A388258F3A9400B0B87E /* Passport+Behaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8283A387258F3A9400B0B87E /* Passport+Behaviour.swift */; };
 		82CAE345258DD1BD00999547 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE344258DD1BD00999547 /* Collection+Extension.swift */; };
@@ -88,6 +89,7 @@
 		8257B19425972E8A00DAAA15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8257B19D25972EA200DAAA15 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		8257B1A725972EBC00DAAA15 /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
+		8257B1AD259732BB00DAAA15 /* Problem1+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem1+Extension.swift"; sourceTree = "<group>"; };
 		8283A382258F30ED00B0B87E /* Matchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matchable.swift; sourceTree = "<group>"; };
 		8283A387258F3A9400B0B87E /* Passport+Behaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Passport+Behaviour.swift"; sourceTree = "<group>"; };
 		82CAE344258DD1BD00999547 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 			children = (
 				8257B19425972E8A00DAAA15 /* main.swift */,
 				8257B1A725972EBC00DAAA15 /* Problem1.swift */,
+				8257B1AD259732BB00DAAA15 /* Problem1+Extension.swift */,
 				8257B19D25972EA200DAAA15 /* DataSource.swift */,
 			);
 			path = AdvantDay1;
@@ -404,6 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8257B1A825972EBC00DAAA15 /* Problem1.swift in Sources */,
+				8257B1AE259732BC00DAAA15 /* Problem1+Extension.swift in Sources */,
 				8257B19E25972EA200DAAA15 /* DataSource.swift in Sources */,
 				8257B19525972E8A00DAAA15 /* main.swift in Sources */,
 			);

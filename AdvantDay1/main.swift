@@ -14,3 +14,7 @@ if indices.0 > 0 && indices.1 > 0 {
     print(processedArray[indices.0] * processedArray[indices.1])
 }
 
+let indicesForThree = Problem1().findThreeIndexOf(targetSum: 2020, in: processedArray)
+if indicesForThree.0 > 0 && indicesForThree.1 > 0  && indicesForThree.2 > 0 {
+    print(processedArray[indicesForThree.0] * processedArray[indicesForThree.1] * processedArray[indicesForThree.2] )
+}
