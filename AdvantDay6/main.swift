@@ -9,4 +9,6 @@ import Foundation
 
 let processedArray = dataSource.components(separatedBy: "\n\n")
 
-print(Problem().solvePartOne(having: processedArray))
+print(Problem1().solvePartOne(having: processedArray))
+
+print(Problem1().solvePartTwo(having: processedArray))

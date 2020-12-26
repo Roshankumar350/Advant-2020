@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Problem {
+struct Problem1 {
     func solvePartOne(having dataSource: [String]) -> Int {
         
         var summationOfCount = 0
