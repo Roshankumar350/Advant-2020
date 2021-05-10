@@ -1,5 +1,5 @@
 # AdvantDay1
-Advant Day 1 solution by considering design.
+Advant Day 1 solution.
 
 - Problem Statement:- <br />
 https://adventofcode.com/2020/day/1
@@ -9,7 +9,7 @@ https://adventofcode.com/2020/day/1
 - [x]  Solution for Part 2
 
 # AdvantDay2
-Advant Day 1 solution by considering design.
+Advant Day 2 solution.
 
 - Problem Statement:- <br />
 https://adventofcode.com/2020/day/2
